@@ -1,0 +1,189 @@
+[
+  {
+    "id": 1,
+    "nombre": "Arete con circon rosado",
+    "categoria": "aretes",
+    "precio": 23000,
+    "imagen": "Aretes.png/Aretes_rosa_broche_rosca.jpeg",
+    "disponible": true,
+    "descripcion": "Arete topo minimalista con circón rosado y seguro de rosca. Un diseño delicado y cómodo que aporta un toque sutil de luz y color, ideal para llevar puesto todos los días sin preocuparte por perderlo.",
+    "detalles_material": "Plata Ley 925 hipoalergénica, libre de níquel y circon rosado.",
+    "garantia_producto": ""
+  },
+  {
+    "id": 2,
+    "nombre": "Anillo Masculino Rolex Circones Blancos – Plata 925",
+    "categoria": "anillos",
+    "precio": 87000,
+    "imagen": "Anillos.png/Anillo_hombre_rolex_plata_piedras_blancas_oro.jpeg",
+    "disponible": true,
+    "descripcion": "Presencia imponente y acabado de lujo en cada detalle. Este anillo masculino estilo Rolex combina el brillo plateado de su estructura con el emblema central en tono dorado y un halo de circones blancos que aportan un destello limpio y elegante. Una pieza con carácter, ideal para resaltar tu estilo diario o destacar en ocasiones especiales.",
+    "detalles_material": "Plata Ley 925 hipoalergénica, libre de níquel, con detalle central dorado y circones blancos.",
+    "garantia_producto": ""
+  },
+  {
+    "id": 3,
+    "nombre": "Aretes Topo Circón Blanco XL – Plata 925",
+    "categoria": "aretes",
+    "precio": 37000,
+    "imagen": "Aretes.png/Aretes_blancos_redondos_xl.jpeg",
+    "disponible": true,
+    "descripcion": "Máximo brillo y presencia en cada detalle. Estos aretes tipo topo en tamaño XL destacan por su circón blanco de corte redondo brillante, asegurado en una clásica montura de seis uñas en Plata Ley 925 que permite el paso de la luz para un destello tipo diamante. Un diseño imponente, versátil y cómodo, ideal para lucir tanto en el lóbulo como en perforaciones superiores y elevar cualquier estilo.",
+    "detalles_material": "Plata Ley 925 hipoalergénica, libre de níquel, con circón blanco AAA de corte redondo brillante.",
+    "garantia_producto": ""
+  },
+  {
+    "id": 4,
+    "nombre": "Cadena Tejido Cubano 50cm – Plata Italiana",
+    "categoria": "cadenas",
+    "precio": 110000,
+    "imagen": "Cadenas.png/cadena_tejidocubano_delgada_5mm.jpeg",
+    "disponible": true,
+    "descripcion": "Un clásico infaltable con un brillo superior. Esta cadena de tejido cubano delgado (5 mm de ancho y 50 cm de largo) está elaborada en auténtica plata italiana Ley 925 con acabado pulido espejo que refleja la luz desde cada ángulo. Un diseño versátil, resistente y cómodo, ideal para lucir sola con un estilo limpio o combinar con tu dije favorito.",
+    "detalles_material": "Plata Ley 925 sólida, acabado pulido brillante a mano.",
+    "garantia_producto": ""
+  },
+  {
+    "id": 5,
+    "nombre": "Anillo Destello Rosado",
+    "categoria": "anillos",
+    "precio": 70000,
+    "imagen": "Anillos.png/Anillo_mujer_rosado_delcado.jpeg",
+    "disponible": true,
+    "descripcion": "Un diseño delicado y femenino con un toque de distinción. Este anillo cuenta con una piedra central de circón rosado en corte redondo, realzada por una banda dividida con microcircones blancos engastados que aportan un brillo sutil desde cualquier ángulo. Perfecto para usar a diario o dar un detalle especial.",
+    "detalles_material": "Plata Ley 925 hipoalergénica, libre de níquel, con circones cúbicos.",
+    "garantia_producto": ""
+  },
+  {
+    "id": 6,
+    "nombre": "Dije Crucifijo Plata 925 y Baño de Oro",
+    "categoria": "dijes",
+    "precio": 83200,
+    "imagen": "dijes.png/Dije_baño_oro_plata.jpeg",
+    "disponible": true,
+    "descripcion": "Un símbolo de fe y distinción con un contraste elegante. Este dije crucifijo combina el brillo plateado de su estructura tubular con remates definidos y la figura en relieve con baño de oro en el centro. Una pieza con presencia y significado, ideal para acompañar tus cadenas diarias o dar como un regalo especial.",
+    "detalles_material": "Plata Ley 925 con detalles y baño de oro, hipoalergénica y libre de níquel.",
+    "garantia_producto": ""
+  },
+  {
+    "id": 7,
+    "nombre": "Aretes Topo Mariposa con Circones Rosados",
+    "categoria": "aretes",
+    "precio": 23000,
+    "imagen": "Aretes.png/Aretes_mariposa_rosados_seguro_rosca.jpeg",
+    "disponible": true,
+    "descripcion": "Delicados aretes tipo topo con diseño de mariposa, decorados con circones rosados en sus alas y un sutil brillo central. Una pieza tierna, elegante y muy femenina, ideal para dar un toque único de color y luz a tus perforaciones o estilo diario.",
+    "detalles_material": "Plata Ley 925 hipoalergénica, libre de níquel.",
+    "garantia_producto": ""
+  },
+  {
+    "id": 8,
+    "nombre": "Anillo Promesa Luz de Aurora",
+    "categoria": "anillos",
+    "precio": 75000,
+    "imagen": "Anillos.png/Anillo_mujer_corazon_tornasol.jpeg",
+    "disponible": true,
+    "descripcion": "Un símbolo lleno de magia y brillo. Este anillo de promesa destaca por su piedra central en corte corazón con efecto tornasol, rodeada por un halo de microcircones brillantes y una banda delicadamente engastada. Una pieza romántica y llamativa, perfecta para regalar en una ocasión especial o darle un toque único a tu mano.",
+    "detalles_material": "Plata Ley 925 con acabado en rodio (hipoalergénico, libre de níquel) y circones cúbicos.",
+    "garantia_producto": ""
+  },
+  {
+    "id": 9,
+    "nombre": "Topo Cuadrado Brillante – Plata 925",
+    "categoria": "aretes",
+    "precio": 14000,
+    "imagen": "Aretes.png/Aretes_medianos_circon_blanco.jpeg",
+    "disponible": true,
+    "descripcion": "Arete topo minimalista con circón blanco de corte cuadrado y clásico seguro de mariposa. Un diseño elegante y cómodo que aporta un toque único de brillo y luz, ideal para complementar tu estilo diario o combinar en tus perforaciones.",
+    "detalles_material": "Plata Ley 925 hipoalergénica, libre de níquel.",
+    "garantia_producto": ""
+  },
+  {
+    "id": 10,
+    "nombre": "Rosario / Camándula de Balines en Plata 925",
+    "categoria": "cadenas",
+    "precio": 120000,
+    "imagen": "Cadenas.png/Cadena_camandula_mediana.jpeg",
+    "disponible": true,
+    "descripcion": "Un símbolo tradicional de fe, protección y estilo. Esta delicada camándula está elaborada en auténtica Plata Ley 925, combinando eslabones finos con balines pulidos de alto brillo y una medalla central troquelada en relieve de la Virgen Milagrosa. Una pieza ligera, elegante y llena de significado, ideal para llevar a diario o dar como un regalo especial.",
+    "detalles_material": "Plata Ley 925 auténtica, hipoalergénica y libre de níquel, con acabado pulido brillante.",
+    "garantia_producto": ""
+  },
+  {
+    "id": 11,
+    "nombre": "Anillo Esmeralda Elegante – Plata 925",
+    "categoria": "anillos",
+    "precio": 77000,
+    "imagen": "Anillos.png/Anillo_circon_verde_tipo_esmeralda_delgado.jpeg",
+    "disponible": true,
+    "descripcion": "Sofisticación y brillo en un diseño delicado. Este anillo de banda delgada destaca por su piedra central verde intenso tipo esmeralda en montura de uñas, acompañada por microcircones brillantes a los costados que realzan su luz. Una pieza elegante y femenina, ideal para ocasiones especiales, un regalo inolvidable o para darle un toque distintivo a tu mano.",
+    "detalles_material": "Plata Ley 925 hipoalergénica, libre de níquel, con piedra central verde tipo esmeralda y microcircones.",
+    "garantia_producto": ""
+  },
+  {
+    "id": 12,
+    "nombre": "Arete con circón morado",
+    "categoria": "aretes",
+    "precio": 15000,
+    "imagen": "Aretes.png/Arete_Morado_broche_mariposa.jpeg",
+    "disponible": true,
+    "descripcion": "Arete topo minimalista con circón morado de corte princesa y clásico seguro de mariposa. Un diseño elegante y cómodo que aporta un toque único de color y luz, ideal para complementar tu estilo diario o combinar en tus perforaciones.",
+    "detalles_material": "Plata Ley 925 hipoalergénica, libre de níquel.",
+    "garantia_producto": ""
+  },
+  {
+    "id": 13,
+    "nombre": "Dije Crucifijo Pequeño Plata 925",
+    "categoria": "dijes",
+    "precio": 46000,
+    "imagen": "dijes.png/dije_pequeño_plata.jpeg",
+    "disponible": true,
+    "descripcion": "Un símbolo clásico y discreto con un brillo uniforme. Este dije crucifijo pequeño está elaborado completamente en plata con acabado pulido, figura en relieve y placa superior definida. Su tamaño compacto lo hace ideal para llevar todos los días en cadenas delicadas o combinar con otras piezas.",
+    "detalles_material": "Plata Ley 925 hipoalergénica, libre de níquel, con acabado pulido brillante.",
+    "garantia_producto": ""
+  },
+  {
+    "id": 14,
+    "nombre": "Par de Aretes Topo Redondos con Circón Brillante",
+    "categoria": "aretes",
+    "precio": 15000,
+    "imagen": "Aretes.png/Aretes_altagama_mediano_redondo_circon_blanco.jpeg",
+    "disponible": true,
+    "descripcion": "Aretes tipo topo minimalistas con circón blanco de corte redondo y clásico seguro de mariposa. Un diseño elegante, cómodo y versátil que aporta un destello limpio de luz, ideal para complementar tu estilo diario o combinar en tus perforaciones.",
+    "detalles_material": "Plata Ley 925 hipoalergénica, libre de níquel.",
+    "garantia_producto": ""
+  },
+  {
+    "id": 15,
+    "nombre": "Anillo Corazón Brillante Rosado",
+    "categoria": "anillos",
+    "precio": 55000,
+    "imagen": "Anillos.png/Anillo_mujer_corazon_rosado_delado.jpeg",
+    "disponible": true,
+    "descripcion": "Un detalle tierno y deslumbrante. Este anillo presenta una hermosa piedra central en forma de corazón de color rosado, enmarcada por un delicado halo y una banda de microcircones brillantes. Una pieza romántica y sofisticada, ideal para regalar o darle un toque muy femenino a tu estilo diario.",
+    "detalles_material": "Plata Ley 925 hipoalergénica, libre de níquel.",
+    "garantia_producto": ""
+  },
+  {
+    "id": 16,
+    "nombre": "Aretes Topo Clásicos con Circón",
+    "categoria": "aretes",
+    "precio": 12000,
+    "imagen": "Aretes.png/Aretes_pequeños__broche_mariposa.jpeg",
+    "disponible": true,
+    "descripcion": "Aretes tipo topo minimalistas con circón brillante de corte clásico. Un diseño delicado, cómodo y versátil que aporta un toque sutil de luz, ideal para llevar puesto todos los días en cualquier perforación.",
+    "detalles_material": "Plata Ley 925 hipoalergénica, libre de níquel.",
+    "garantia_producto": ""
+  },
+  {
+    "id": 17,
+    "nombre": "Anillo Masculino - Rolex",
+    "categoria": "anillos",
+    "precio": 87000,
+    "imagen": "Anillos.png/Anillo_hombre_rolex_plata_oro.jpeg",
+    "disponible": true,
+    "descripcion": "Anillo masculino estilo Rolex elaborado en Plata Ley 925 con detalles en contraste dorado. Un diseño imponente, elegante y de acabado pulido brillante, ideal para resaltar tu estilo.",
+    "detalles_material": "Plata Ley 925 hipoalergénica con detalles dorados.",
+    "garantia_producto": ""
+  }
+]

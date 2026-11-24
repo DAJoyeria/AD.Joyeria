@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garantía y Respaldos | A.D Platería</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome Íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Vinculamos tu hoja de estilos principal -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos específicos para la sección de productos en garantía */
+        .warranty-container {
+            max-width: 1200px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+        }
+        .warranty-hero {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .warranty-hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+        }
+        .general-policy-card {
+            background: #fff;
+            border: 1px solid var(--silver-light);
+            border-radius: 12px;
+            padding: 2.5rem;
+            box-shadow: var(--shadow-soft);
+            margin-bottom: 4rem;
+        }
+        .general-policy-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+        .general-policy-card h3 i {
+            color: var(--silver-dark);
+        }
+        .general-policy-card p, .general-policy-card ul {
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+        }
+        .general-policy-card ul {
+            padding-left: 1.5rem;
+        }
+        .warranty-product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .warranty-item-card {
+            background: #fff;
+            border: 1px solid var(--silver-light);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: var(--shadow-soft);
+            display: flex;
+            flex-direction: column;
+        }
+        .warranty-item-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .warranty-item-info {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .warranty-item-info h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            margin-bottom: 0.8rem;
+        }
+        .warranty-box {
+            background: var(--bg-secondary);
+            padding: 0.8rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: auto;
+            border-left: 3px solid var(--silver-dark);
+        }
+        .back-home {
+            text-align: center;
+            margin: 4rem 0 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo-link">
+                <img src="logo.png/Gemini_Generated_Image_99e41o99e41o99e4.jpg" alt="A.D Platería Logo" class="logo-img">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="index.html#catalogo">Catálogo</a></li>
+                <li><a href="index.html#relojes">Relojes</a></li>
+                <li><a href="garantia.html" style="color: var(--silver-dark); font-weight: 600;">Garantía</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="warranty-container">
+        <div class="warranty-hero">
+            <h1>Garantía y Calidad A.D</h1>
+            <div class="silver-divider"></div>
+            <p style="margin-top: 1rem; color: var(--text-muted);">Transparencia y respaldo en cada una de nuestras piezas de plata ley.</p>
+        </div>
+
+        <!-- Tarjeta de Políticas Generales -->
+        <div class="general-policy-card">
+            <h3><i class="fa-solid fa-shield-halved"></i> Políticas Generales de Garantía</h3>
+            <p>En <strong>A.D Platería</strong> garantizamos que todas nuestras joyas son elaboradas en plata legítima de ley. Nuestro compromiso es ofrecerte piezas duraderas y de alta pureza.</p>
+            <ul>
+                <li><strong>Cobertura:</strong> Autenticidad del material de por vida y 30 días por defectos de fabricación o ensamble.</li>
+                <li><strong>Exclusiones:</strong> La garantía no cubre daños por mal uso, exposición a químicos agresivos, tirones accidentales o pérdida de piezas.</li>
+            </ul>
+        </div>
+
+        <!-- Sección de Productos y sus Garantías Específicas -->
+        <div class="section-header">
+            <h2>Garantía por Categoría y Producto</h2>
+            <div class="silver-divider"></div>
+            <p style="margin-top: 0.8rem; color: var(--text-muted);">Consulta las especificaciones de cobertura para cada diseño:</p>
+        </div>
+
+        <div class="warranty-product-grid" id="warranty-product-grid">
+            <!-- Los productos se cargarán dinámicamente desde garantias-productos.json -->
+            <p style="text-align: center; grid-column: 1/-1; color: var(--text-muted);">Cargando información de garantías...</p>
+        </div>
+
+        <div class="back-home">
+            <a href="index.html" class="btn btn-silver">
+                <i class="fa-solid fa-arrow-left"></i> Volver a la Tienda
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3>A.D Platería</h3>
+                <p>Joyas que perduran en el tiempo.</p>
+            </div>
+            <div class="footer-socials">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 A.D Platería. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Script específico para cargar los productos de garantía -->
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            const grid = document.getElementById('warranty-product-grid');
+            
+            // Respaldo por si se abre localmente sin servidor (CORS)
+            const fallbackWarranty = [
+                { id: 1, nombre: "Cadena Tejido Veneciano 50cm", imagen: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=800&auto=format&fit=crop", detalles_material: "Plata Ley 925 sólida, acabado pulido brillante.", garantia_producto: "Garantía de por vida sobre autenticidad. 30 días en broches." },
+                { id: 2, nombre: "Cadena Dije Medalla San Benito", imagen: "https://images.unsplash.com/photo-1611591475179-62cd3579893d?q=80&w=800&auto=format&fit=crop", detalles_material: "Plata Ley 925 con detalles oxidados oscuros.", garantia_producto: "Garantía de autenticidad del material por 30 días." },
+                { id: 3, nombre: "Manilla Tejido Escalera", imagen: "https://images.unsplash.com/photo-1611591475179-62cd3579893d?q=80&w=800&auto=format&fit=crop", detalles_material: "Plata Ley 925 flexible y resistente.", garantia_producto: "Garantía de 30 días por fallas en el broche." },
+                { id: 4, nombre: "Manilla Balines Plata 925", imagen: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=800&auto=format&fit=crop", detalles_material: "Balines de plata ley 925 sobre hilo resistente.", garantia_producto: "Garantía de 30 días por roturas de fábrica." },
+                { id: 5, nombre: "Tobillera Cascabeles & Dijes", imagen: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=800&auto=format&fit=crop", detalles_material: "Plata Ley 925 hipoalergénica.", garantia_producto: "Garantía de 30 días por defectos de fabricación." },
+                { id: 6, nombre: "Tobillera Minimalista Doble Hilo", imagen: "https://images.unsplash.com/photo-1611591475179-62cd3579893d?q=80&w=800&auto=format&fit=crop", detalles_material: "Plata Ley 925 ligera y duradera.", garantia_producto: "Garantía de autenticidad por 30 días." }
+            ];
+
+            try {
+                const response = await fetch('garantias-productos.json');
+                if (!response.ok) throw new Error('Error al cargar JSON');
+                const products = await response.json();
+                renderWarrantyProducts(products);
+            } catch (error) {
+                console.warn('Usando datos de respaldo para garantías.', error);
+                renderWarrantyProducts(fallbackWarranty);
+            }
+
+            function renderWarrantyProducts(items) {
+                grid.innerHTML = '';
+                items.forEach(item => {
+                    const card = document.createElement('div');
+                    card.className = 'warranty-item-card';
+                    card.innerHTML = `
+                        <img src="${item.imagen}" alt="${item.nombre}" class="warranty-item-img">
+                        <div class="warranty-item-info">
+                            <h4>${item.nombre}</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.8rem;"><strong>Material:</strong> ${item.detalles_material}</p>
+                            <div class="warranty-box">
+                                <i class="fa-solid fa-shield-check" style="color: var(--silver-dark);"></i> ${item.garantia_producto}
+                            </div>
+                        </div>
+                    `;
+                    grid.appendChild(card);
+                });
+            }
+        });
+    </script>
+</body>
+</html>

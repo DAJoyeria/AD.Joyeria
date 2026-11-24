@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.D Platería | Joyería Fina en Plata Ley</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome Íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar Sticky con Logo en Imagen -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="#" class="logo-link">
+                <img src="logo.png/Gemini_Generated_Image_99e41o99e41o99e4.jpg" alt="A.D Platería Logo" class="logo-img">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                
+                <li><a href="garantia.html">Garantía</a></li>
+            </ul>
+            <div class="cart-icon-wrapper" id="cart-toggle" title="Ver Carrito">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="cart-count" id="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content fade-in-element">
+            <h1>Elegancia Atemporal en Plata Ley</h1>
+            <p>Descubre piezas exclusivas diseñadas para destacar tu brillo personal.</p>
+            <a href="#catalogo" class="btn btn-silver">Ver Colección</a>
+        </div>
+    </section>
+
+    <!-- Catálogo por Categorías -->
+    <section id="catalogo" class="catalog-section">
+        <div class="section-header fade-in-element">
+            <h2>Nuestra Colección</h2>
+            <div class="silver-divider"></div>
+        </div>
+
+        <div class="category-filters fade-in-element">
+            <button class="filter-btn active" data-category="todos">Todos</button>
+            <button class="filter-btn" data-category="cadenas">Cadenas</button>
+            <button class="filter-btn" data-category="manillas">Manillas</button>
+            <button class="filter-btn" data-category="aretes">Aretes</button>
+            <button class="filter-btn" data-category="anillos">Anillos</button>
+            <button class="filter-btn" data-category="dijes">Dijes</button>
+        </div>
+
+        <!-- Buscador con Lupa -->
+        <div class="search-bar-wrapper fade-in-element visible">
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input 
+                    type="text" 
+                    id="search-input" 
+                    placeholder="Buscar cadenas, manillas, aretes, dijes, anillos..." 
+                    aria-label="Buscar productos"
+                >
+                <button type="button" id="clear-search-btn" class="clear-search-btn" title="Limpiar búsqueda" style="display: none;">
+                    &times;
+                </button>
+            </div>
+        </div>
+
+        <div class="product-grid" id="product-grid">
+            <!-- Cargando dinámicamente -->
+            <div class="loading-spinner"><i class="fa-solid fa-spinner fa-spin"></i> Cargando joyas exclusivas...</div>
+        </div>
+    </section>
+
+    <!-- Sección Especial: Relojes (Coming Soon) -->
+    <section id="relojes" class="special-section">
+        <div class="coming-soon-card fade-in-element">
+            <div class="badge-silver">Próximamente</div>
+            <h2>Relojes A.D</h2>
+            <p>Estamos perfeccionando nuestra nueva línea de relojes de alta gama. Muy pronto disponible.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3>A.D Platería</h3>
+                <p>Joyas que perduran en el tiempo.</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/ad.joyeria.925?exln=a2N6Z3RlaTFqanM="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61596670350196&mibextid=rS40aB7S9Ucbxw6v"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 A.D Platería. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Modal del Carrito y Checkout -->
+    <div class="cart-modal" id="cart-modal">
+        <div class="cart-modal-content">
+            <div class="cart-modal-header">
+                <h3>Tu Pedido</h3>
+                <button class="close-btn" id="cart-close">&times;</button>
+            </div>
+            
+            <div class="cart-items" id="cart-items">
+                <!-- Ítems agregados dinámicamente -->
+            </div>
+
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cart-total-price">$0</span>
+            </div>
+
+            <form id="checkout-form" class="checkout-form">
+                <h4>Datos de Envío y Contacto</h4>
+                <div class="form-group">
+                    <input type="text" id="client-name" placeholder="Nombre Completo *" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="client-email" placeholder="Correo Electrónico *" required>
+                </div>
+                <button type="submit" class="btn btn-silver btn-block">
+                    <i class="fa-brands fa-whatsapp"></i> Confirmar y Enviar por WhatsApp
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal de Detalles del Producto -->
+    <div class="product-modal" id="product-detail-modal">
+        <div class="product-modal-content">
+            <button class="close-btn" id="detail-close">&times;</button>
+            <div id="detail-modal-body">
+                <!-- Contenido cargado dinámicamente -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenedor de Notificaciones Toast -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
